@@ -1,7 +1,7 @@
 # PreProcessing
 Techniques and Solutions used during Pre-processing.
 
-** Data PreProcessing = Data Cleansing + Feature Engineering **
+**Data PreProcessing = Data Cleansing + Feature Engineering**
 
 ## Data Cleansing
 

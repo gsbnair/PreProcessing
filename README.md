@@ -11,6 +11,8 @@ Data preprocessing is an important step of solving machine learning problem. Mos
 
 **Data PreProcessing = Data Cleansing + Feature Engineering**
 
+A small writeup on Data cleansing can be found [here](DataCleansing.md)
+
 ## Feature Engineering 
 
 Feature Engineering selects the right attributes to analyze. Domain knowledge is much required to select or create attributes that make machine learning algorithms work better. Feature Engineering process includes:
