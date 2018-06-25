@@ -46,7 +46,7 @@ Male,	Math
 
 We can summarize the collected observations in a table with one variable corresponding to columns and another variable corresponding to rows. Each cell in the table corresponds to the count or frequency of observations that correspond to the row and column categories.
 
-a table summarization of two categorical variables in this form is called a contingency table.
+A table summarization of two categorical variables in this form is called a contingency table.
 
 For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived counts might look as follows:
 
@@ -58,5 +58,8 @@ For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived 
 | Total  |      450 |   450 |   100 |  1000 |
 
 
-    
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |   
 
