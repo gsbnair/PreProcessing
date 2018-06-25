@@ -41,3 +41,21 @@ Related Attributes - If there multiple attributes with same information with dif
 $\chi$
 
 $$\chi^2 = \sum \frac {(O - E)^2}{E}$$
+
+## Latex
+
+$$ 
+\begin{aligned}
+
+y_j \sim N(\theta_j , \sigma_j^2) \\
+
+\sigma_j = \nu/\sqrt{n_j}   \\
+
+\theta = \mu +\tau \times \eta \\
+
+\eta \sim N(0,1) \\
+
+\mu + \tau\times\eta = \theta \sim N(\mu , \tau^2)
+
+\end{aligned}
+$$
