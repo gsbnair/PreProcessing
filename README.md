@@ -99,4 +99,11 @@ The analysis plan describes how to use sample data to accept or reject the null 
 3. **Analyze Sample Data**
 Using sample data, find the `degrees of freedom`, `expected frequencies`, `test statistic`, and the `P-value` associated with the test statistic.
 
+***Degrees of freedom***. The degrees of freedom (DF) is equal to:
+> degrees of freedom: (rows - 1) * (cols - 1)
+
+>				`DF = (r - 1) * (c - 1)`
+
+where r is the number of levels for one catagorical variable, and c is the number of levels for the other categorical variable.
+
 
