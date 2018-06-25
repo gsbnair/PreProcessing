@@ -11,7 +11,5 @@ Data preprocessing is an important step of solving machine learning problem. Mos
 
 ** Data PreProcessing = Data Cleansing + Feature Engineering **
 
-More on Data Cleansing can be found [here](DataCleansing.md)
-
 Here we explore Feature Engineering.
 
