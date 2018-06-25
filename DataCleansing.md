@@ -1,14 +1,6 @@
 # PreProcessing
 Techniques and Solutions used during Pre-processing.
 
-Data preparation takes 60 to 80 percent of the whole analytical pipeline in a typical machine learning project.
-
-A key task when you want to build an analytic model using machine learning, is the integration and preparation of data sets from various sources like files, databases, BigData, sensors or social networks. This step can take up to 80 percent of the whole analytics project.
-
-Datasets are different and they posses unique characteristics and taming and reshaping them for use in ML are always challenging.
-
-Data preprocessing is an important step of solving machine learning problem. Most of the datasets (inputs) arriving at ML area requires to be cleansed and transformed to get qualified to be used in Machine Learning algorithms.
-
 ** Data PreProcessing = Data Cleansing + Feature Engineering **
 
 ## Data Cleansing
@@ -36,26 +28,4 @@ When number of unique values is huge and even the values are equally distributed
 
 Related Attributes - If there multiple attributes with same information with different granularity, like city and state, it’s better to keep columns like state and delete city column. Additionally, keeping both columns and assessing feature importance might help in eliminating one column.
 
-\chi
 
-$\chi$
-
-$$\chi^2 = \sum \frac {(O - E)^2}{E}$$
-
-## Latex
-
-$$ 
-\begin{aligned}
-
-y_j \sim N(\theta_j , \sigma_j^2) \\
-
-\sigma_j = \nu/\sqrt{n_j}   \\
-
-\theta = \mu +\tau \times \eta \\
-
-\eta \sim N(0,1) \\
-
-\mu + \tau\times\eta = \theta \sim N(\mu , \tau^2)
-
-\end{aligned}
-$$
