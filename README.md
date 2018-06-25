@@ -37,12 +37,14 @@ Look at a summary of a categorical variable as it pertains to another categorica
 
 For example, sex and interest, where interest may have the labels ‘science‘, ‘math‘, or ‘art‘. We can collect observations from people with regard to these two categorical variables; for example:
 
-|`Sex` | `Interest` |
+|Sex   | Interest   |
 |:-----|:-----------|
 |Male  |	Art     |
 |Female|	Math    |
 |Male  | 	Science |
 |Male  |	Math    |
+|Female|	Art     |
+|Male  | 	Science |
 |...   |    ...     |
 
 We can summarize the collected observations in a table with one variable corresponding to `columns` and another variable corresponding to `rows`. Each cell in the table corresponds to the count or frequency of observations that correspond to the row and column categories.
@@ -71,10 +73,30 @@ The test can be conducted when the following conditions are met:
 - The variables under study are each `categorical`.
 - If sample data are displayed in a contingency table, the expected `frequency count` for each cell of the table is `at least 5`.
 
-The chi-square approach consists of four steps: 
-- (1) state the hypotheses
-- (2) formulate an analysis plan
-- (3) analyze sample data
-- (4) interpret results
+The chi-square approach consists of **four steps**: 
+- (1) State the hypotheses
+- (2) Formulate an analysis plan
+- (3) Analyze sample data
+- (4) Interpret results
+
+1. **State the Hypotheses** 
+
+Hypotheses `Ho`: Variable A and Variable B are independent.
+
+Alternative Hypothesis `Ha`: Variable A and Variable B are not independent.
+
+The `alternative hypothesis` is that knowing the level of Variable A helps you predict the level of Variable B (`one causes the other`).
+
+2. **Formulate an Analysis Plan**
+
+The analysis plan describes how to use sample data to accept or reject the null hypothesis. The plan should specify the following elements.
+
+***Significance level***. Usually, researchers choose significance levels equal to 0.01, 0.05, or 0.10; but any value between 0 and 1 can be used. 
+***Test method***. Use the chi-square test for independence to determine whether there is a significant relationship between two categorical variables.
+
+3. **Analyze Sample Data**
+Using sample data, find the `degrees of freedom`, `expected frequencies`, `test statistic`, and the `P-value` associated with the test statistic.
 
 
+
+$$\chi^2 = \sum \frac {(O - E)^2}{E}$$
