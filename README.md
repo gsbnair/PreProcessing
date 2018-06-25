@@ -52,7 +52,7 @@ For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived 
 
 
 | Gender | Science  |  Math |  Art  | Total |
-|--------|----------|---------------|-------|
+|--------|----------|-------|-------|-------|
 | Male   |      200 |   150 |    50 |   400 |
 | Female |      250 |   300 |    50 |   600 |
 | Total  |      450 |   450 |   100 |  1000 |
