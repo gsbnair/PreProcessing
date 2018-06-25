@@ -9,7 +9,7 @@ Datasets are different and they posses unique characteristics and taming and res
 
 Data preprocessing is an important step of solving machine learning problem. Most of the datasets (inputs) arriving at ML area requires to be cleansed and transformed to get qualified to be used in Machine Learning algorithms.
 
-** Data PreProcessing = Data Cleansing + Feature Engineering **
+**Data PreProcessing = Data Cleansing + Feature Engineering**
 
 Let's explore Feature Engineering.
 
