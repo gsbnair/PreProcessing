@@ -43,14 +43,13 @@ For example, sex and interest, where interest may have the labels ‘science‘,
 |Female|	Math    |
 |Male  | 	Science |
 |Male  |	Math    |
-|...   |            |
+|...   |    ...     |
 
-We can summarize the collected observations in a table with one variable corresponding to columns and another variable corresponding to rows. Each cell in the table corresponds to the count or frequency of observations that correspond to the row and column categories.
+We can summarize the collected observations in a table with one variable corresponding to `columns` and another variable corresponding to `rows`. Each cell in the table corresponds to the count or frequency of observations that correspond to the row and column categories.
 
-A table summarization of two categorical variables in this form is called a contingency table.
+A table summarization of two categorical variables in this form is called a **contingency table**.
 
 For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived counts might look as follows:
-
 
 | Gender | Science  |  Math |  Art  | Total |
 |:-------|---------:|------:|------:|------:|
@@ -58,5 +57,24 @@ For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived 
 | Female |      250 |   300 |    50 |   600 |
 | Total  |      450 |   450 |   100 |  1000 |
 
+Question: Does an interest in math or science depend on gender, or are they independent?
+
+This is challenging to determine from the table alone; instead, we can use a statistical method called the Pearson’s Chi-Squared test.
+
+Wait... there are constraints for using Chi-square !
+
+**When to Use Chi-Square Test for Independence**
+
+The test can be conducted when the following conditions are met:
+
+- The sampling method is `simple random sampling`.
+- The variables under study are each `categorical`.
+- If sample data are displayed in a contingency table, the expected `frequency count` for each cell of the table is `at least 5`.
+
+The chi-square approach consists of four steps: 
+- (1) state the hypotheses
+- (2) formulate an analysis plan
+- (3) analyze sample data
+- (4) interpret results
 
 
