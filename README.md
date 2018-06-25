@@ -37,12 +37,13 @@ Look at a summary of a categorical variable as it pertains to another categorica
 
 For example, sex and interest, where interest may have the labels ‘science‘, ‘math‘, or ‘art‘. We can collect observations from people with regard to these two categorical variables; for example:
 
-`Sex`	`Interest`
-Male,	Art
-Female,	Math
-Male, 	Science
-Male,	Math
-...
+|`Sex` | `Interest` |
+|:-----|:-----------|
+|Male  |	Art     |
+|Female|	Math    |
+|Male  | 	Science |
+|Male  |	Math    |
+|...   |            |
 
 We can summarize the collected observations in a table with one variable corresponding to columns and another variable corresponding to rows. Each cell in the table corresponds to the count or frequency of observations that correspond to the row and column categories.
 
@@ -52,14 +53,10 @@ For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived 
 
 
 | Gender | Science  |  Math |  Art  | Total |
-|--------|----------|-------|-------|-------|
+|:-------|---------:|------:|------:|------:|
 | Male   |      200 |   150 |    50 |   400 |
 | Female |      250 |   300 |    50 |   600 |
 | Total  |      450 |   450 |   100 |  1000 |
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |   
 
