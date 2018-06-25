@@ -98,6 +98,8 @@ The analysis plan describes how to use sample data to accept or reject the null 
 Using sample data, find the `degrees of freedom`, `expected frequencies`, `test statistic`, and the `P-value` associated with the test statistic.
 
 
-\Xi
+\chi
+
+$\chi$
 
 $$\chi^2 = \sum \frac {(O - E)^2}{E}$$
