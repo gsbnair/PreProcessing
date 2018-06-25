@@ -50,7 +50,8 @@ a table summarization of two categorical variables in this form is called a cont
 
 For example, the `Sex` = `rows` and `Interest` = `columns` table with contrived counts might look as follows:
 
-|        | Science  |  Math |  Art  | Total |
+
+| Gender | Science  |  Math |  Art  | Total |
 |--------|----------|---------------|-------|
 | Male   |      200 |   150 |    50 |   400 |
 | Female |      250 |   300 |    50 |   600 |
