@@ -125,6 +125,7 @@ E2,2 = (600 * 450) / 1000 = 270000/1000 = 270
 E2,3 = (600 * 100) / 1000 = 60000/1000 = 60
 
 ***Test statistic***. The test statistic is a chi-square random variable (Χ2) defined by the following equation.
+
 Χ^2 = Σ [ (O(r,c) - E(r,c))^2 / E(r,c) ]
 
 where O(r,c) is the observed frequency count at level r of Variable A and level c of Variable B, and E(r,c) is the expected frequency count at level r of Variable A and level c of Variable B.
@@ -158,8 +159,11 @@ The function takes an array as input representing the contingency table for the 
 
 In our [example](01.Chi-Square.ipynb) we got the results:
 prob=0.95
+
 statistic = 16.2
+
 p = 0.0003
+
 critical=5.991
 
 Option-1: 
@@ -171,12 +175,14 @@ A probability of 95% can be used, suggesting that the finding of the test is qui
 statistic >= critical 
 -> Dependent (reject H0)
 
-***Option-2***: We can also interpret the p-value by comparing it to a chosen significance level, which would be 5%, calculated by inverting the 95% probability used in the critical value interpretation.
+Option-2: 
+---------
+We can also interpret the p-value by comparing it to a chosen significance level, which would be 5%, calculated by inverting the 95% probability used in the critical value interpretation.
 significance [alpha =(1.0 - Prob)] = 0.050, 
 p = 0.00030298
 
-Verdict:
---------
+***Verdict***
+
 p <= alpha 
 -> Dependent (reject H0)
 
