@@ -111,11 +111,17 @@ In our case, it is `DF = (r - 1) * (c - 1) = (2 - 1) * (3 - 1) = 2`
 where E(r,c) is the expected frequency count for level r of Variable A and level c of Variable B, nr is the total number of sample observations at level r of Variable A, nc is the total number of sample observations at level c of Variable B, and n is the total sample size.
 
 Which means: E(r,c) = (nr * nc) / n
+
 E1,1 = (400 * 450) / 1000 = 180000/1000 = 180
+
 E1,2 = (400 * 450) / 1000 = 180000/1000 = 180
+
 E1,3 = (400 * 100) / 1000 = 40000/1000 = 40
+
 E2,1 = (600 * 450) / 1000 = 270000/1000 = 270
+
 E2,2 = (600 * 450) / 1000 = 270000/1000 = 270
+
 E2,3 = (600 * 100) / 1000 = 60000/1000 = 60
 
 ***Test statistic***. The test statistic is a chi-square random variable (Χ2) defined by the following equation.
@@ -126,7 +132,9 @@ where O(r,c) is the observed frequency count at level r of Variable A and level 
 Which means: Χ^2 = Σ [ (O(r,c) - E(r,c))^2 / E(r,c) ] 
 Χ^2 = (200 - 180)^2/180 + (150 - 180)^2/180 + (50 - 40)^2/40
     + (250 - 270)^2/270 + (300 - 270)^2/270 + (50 - 60)^2/60
+
 Χ^2 = 400/180 + 900/180 + 100/40 + 400/270 + 900/270 + 100/60
+
 Χ^2 = 2.22 + 5.00 + 2.50 + 1.48 + 3.33 + 1.67 = 16.2
 
 The result of the test is a test statistic that has a chi-squared distribution and can be interpreted to reject or fail to reject the assumption or null hypothesis that the observed and expected frequencies are the same.
@@ -148,16 +156,18 @@ The function takes an array as input representing the contingency table for the 
 
 >statistic, p, dof, expected = chi2_contingency(table)
 
-In our [example](01.ChiSquare.ipynb) we got the results:
+In our [example](01.Chi-Square.ipynb) we got the results:
 prob=0.95
 statistic = 16.2
 p = 0.0003
 critical=5.991
 
-***Option-1***: A probability of 95% can be used, suggesting that the finding of the test is quite likely given the assumption of the test that the variable is independent. If the statistic is less than or equal to the critical value, it can be rejected.
+Option-1: 
+---------
+A probability of 95% can be used, suggesting that the finding of the test is quite likely given the assumption of the test that the variable is independent. If the statistic is less than or equal to the critical value, it can be rejected.
 
-Verdict:
---------
+***Verdict***
+
 statistic >= critical 
 -> Dependent (reject H0)
 
